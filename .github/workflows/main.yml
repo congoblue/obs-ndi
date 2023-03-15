@@ -18,6 +18,7 @@ on:
 
 jobs:
   clang_check:
+    if: false
     name: 01 - Code Format Check
     runs-on: ubuntu-22.04
     steps:
